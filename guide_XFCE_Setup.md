@@ -18,7 +18,8 @@ In some applications the mouse cursor might be too big. To fix it, go into xfce4
 2. set `mousewheel.acceleration.start` to `-1`
 3. set `mousewheel.acceleration.factor` to `20`
 4. set `mousewheel.default.delta_multiplier_y` to `200`
-If this doesn't work, try setting the values as followed:
+
+If that doesn't work, try setting the values as followed:
 ```
 general.smoothScroll.mouseWheel.durationMinMS : 600
 mousewheel.acceleration.start : 2
