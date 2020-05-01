@@ -61,3 +61,7 @@ This is a collection of all the packages installed in a chronological order
 | gimp | photo manipulation suite | |
 | gcolor2 | color picker utility | |
 | tlp | battery improvements | check this guide for further information |
+| vlc | open source media player | |
+| youtube-dl | YouTube downloader | |
+| deezloader | Deezer piracy utility | download from github |
+| qbittorrent | torrent utiliry | |
