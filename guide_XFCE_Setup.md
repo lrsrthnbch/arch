@@ -28,6 +28,10 @@ mousewheel.default.delta_multiplier_y : 400
 mousewheel.default.delta_multiplier_z : 400
 mousewheel.min_line_scroll_amount : 1
 ```
+### Install app images
+1. install `sudo pacman -S fuse2`
+2. chmod the file: `sudo chmod +x xyz`
+3. run it: `./xyz`
 
 ## Important packages
 ### TLP - battery improvements for laptops
