@@ -37,9 +37,17 @@ mousewheel.min_line_scroll_amount : 1
 4. mask the following services: `systemctl mask systemd-rfkill.service`, `systemctl mask systemd-rfkill.socket`
 
 ### yay - AUR manager
-1. Download from git: `git clone https://aur.archlinux.org/yay.git`
+1. download from git: `git clone https://aur.archlinux.org/yay.git`
 2. cd into the directory: `cd yay`
-3. Make: `makepkg -si`
+3. make: `makepkg -si`
+
+### LibreOffice
+install `sudo pacman -S libreoffice-fresh libreoffice-fresh-de ttf-liberation`
+
+### OpenSSH
+1. install `sudo pacman -S openssh`
+2. you might wanna configure the daemon config: `vim /etc/ssh/sshd_config`
+2. enable & start: `sudo systemctl enable sshd.service`, `sudo systemctl start sshd.service`
 
 ## Packages
 This is a collection of all the packages installed in a chronological order
