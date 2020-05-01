@@ -140,11 +140,11 @@ Here is what it should look like:
 
 ## Step 13 - Graphics
 1. Install the Intel video drivers: `pacman -S xf86-video-intel`
-2. Install the xorg server (Just press Enter): `pacman -S xorg`
+2. Install the xorg server (press Enter on every prompt): `pacman -S xorg`
 
 ## Step 14 - Desktop Environment
 This guide uses XFCE, since basically everything works out of the box on ThinkPads.
-1. Install XFCE and additional packages (Just press Enter): `pacman -S xfce4 xfce4-goodies`
+1. Install XFCE and additional packages (press Enter on every prompt): `pacman -S xfce4 xfce4-goodies`
 2. Install additional file manager functionality: `sudo pacman -S gvfs`
 3. Install an audio interface: `sudo pacman -S pavucontrol`
 4. Exit `exit` and login with your user
