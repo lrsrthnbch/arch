@@ -9,6 +9,10 @@ This guide is ment as a collection of many different changes done to the XFCE de
 ## to do
 - [ ] nothing
 
+## Fixes
+### Mouse cursor
+In some applications the mouse cursor might be too big. To fix it, go into xfce4-settings and adjust the mouse pointer size from 16px to 32px, then change it back to 16px.
+
 ## Important packages
 ### TLP - battery improvements for laptops
 1. install the following packages `pacman -S tlp tlp-rdw tp_smapi acpi_call`
