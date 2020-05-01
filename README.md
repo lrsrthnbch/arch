@@ -6,6 +6,6 @@ A repo with all kinds of instructions on how to get Arch Linux up and running
 [General Guide](guide_Encrypted_Arch_XFCE_T460s.md)
 
 ## Customizing
-[XFCE Setup & Customization](guide_XFCE_Setup.md)
+[XFCE Setup & Customizing](guide_XFCE_Setup.md)
 
 ## Ricing
