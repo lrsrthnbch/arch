@@ -13,6 +13,21 @@ This guide is ment as a collection of many different changes done to the XFCE de
 ### Mouse cursor
 In some applications the mouse cursor might be too big. To fix it, go into xfce4-settings and adjust the mouse pointer size from 16px to 32px, then change it back to 16px.
 
+### Firefox scrolling
+1. open about:config and search for mousewheel.acceleration
+2. set `mousewheel.acceleration.start` to `-1`
+3. set `mousewheel.acceleration.factor` to `20`
+4. set `mousewheel.default.delta_multiplier_y` to `200`
+If this doesn't work, try setting the values as followed:
+```
+general.smoothScroll.mouseWheel.durationMinMS : 600
+mousewheel.acceleration.start : 2
+mousewheel.default.delta_multiplier_x : 400
+mousewheel.default.delta_multiplier_y : 400
+mousewheel.default.delta_multiplier_z : 400
+mousewheel.min_line_scroll_amount : 1
+```
+
 ## Important packages
 ### TLP - battery improvements for laptops
 1. install the following packages `pacman -S tlp tlp-rdw tp_smapi acpi_call`
