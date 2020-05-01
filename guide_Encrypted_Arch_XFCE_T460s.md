@@ -6,12 +6,21 @@ This guide is ment to provide step by step instructions on how to get a fully fu
 | ------ | ------ |
 | 2020/05/01 | Initial creation |
 
+## to do
+- [ ] add instructions on how to securely wipe a disk
+- [ ] add section on other desktop environments
+
+## Known issues
+- laptop screen doesn't turn off when connected to an external monitor
+- some minor graphical bug when prompted to enter the dm-crypt passcode
+
 ## Preparations
 - disable Secure Boot and make sure your system boots in UEFI mode
 - up to date Arch Linux ISO
 
 ## Preface
 This guide assumes the target for installation is a Lenovo Laptop (i. e. T460s). It is highly recommended to have another computer ready from which you can ssh into the target. This makes the installation quite a lot easier.
+If you follow this guide, **your disk will be wiped!**
 
 ## Step 1 - Prepare ssh access
 1. Boot from USB
