@@ -85,7 +85,9 @@ initrd /initramfs-linux.img
 options rw cryptdevice=UUID=xyz:cryptroot root=/dev/mapper/cryptroot
 ```
 Here is what it should look like:
+
 ![arch.conf](./screenshots/archconf.png)
+
 8. Create the ramdisk with: `mkinitcpio -p linux`
 9. Navigate back: `cd ~`
 
@@ -116,7 +118,9 @@ swapon /swapfile
 127.0.1.1	T460s.localdomain	T460s
 ```
 Here is what it should look like:
+
 ![hosts](./screenshots/hosts.png)
+
 ## Step 10 - Finishing steps
 1. Set the root password: `passwd`
 2. Install the network manager and other useful tools: `pacman -S efibootmgr networkmanager network-manager-applet wireless_tools wpa_supplicant mtools dosfstools linux-headers`
