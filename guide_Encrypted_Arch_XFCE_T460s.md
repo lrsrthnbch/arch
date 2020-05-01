@@ -4,7 +4,7 @@ This guide is ment to provide step by step instructions on how to get a fully fu
 ## Changelog
 | Date | Comment |
 | ------ | ------ |
-| 2020/05/01 | Initial creation |
+| 2020/05/01 | created the document |
 
 ## to do
 - [ ] add instructions on how to securely wipe a disk
