@@ -65,3 +65,5 @@ This is a collection of all the packages installed in a chronological order
 | youtube-dl | YouTube downloader | |
 | deezloader | Deezer piracy utility | download from github |
 | qbittorrent | torrent utiliry | |
+| clementine | GUI music player | |
+| cmus | console music player | |
