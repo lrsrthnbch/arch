@@ -111,7 +111,7 @@ swapon /swapfile
 
 ## Step 9 - Hostname
 1. Open /etc/hostname `vim /etc/hostname` and add your desired hostname: `T460s`
-2. Open /etc/hosts and add the following lines:
+2. Open /etc/hosts  `vim /etc/hosts` and add the following lines:
 ```
 127.0.0.1	localhost
 ::1		localhost
