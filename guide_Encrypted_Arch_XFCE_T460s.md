@@ -111,7 +111,7 @@ swapon /swapfile
 
 ## Step 9 - Hostname
 1. Open /etc/hostname `vim /etc/hostname` and add your desired hostname: `T460s`
-2. Open /etc/hosts  `vim /etc/hosts` and add the following lines:
+2. Open /etc/hosts and add the following lines:
 ```
 127.0.0.1	localhost
 ::1		localhost
@@ -140,14 +140,15 @@ Here is what it should look like:
 
 ## Step 13 - Graphics
 1. Install the Intel video drivers: `pacman -S xf86-video-intel`
-2. Install the xorg server (press Enter on every prompt): `pacman -S xorg`
+2. Install the xorg server (press Enter on every prompt): `pacman -S xorg xorg-xinit`
 
 ## Step 14 - Desktop Environment
 This guide uses XFCE, since basically everything works out of the box on ThinkPads.
 1. Install XFCE and additional packages (press Enter on every prompt): `pacman -S xfce4 xfce4-goodies`
 2. Install additional file manager functionality: `sudo pacman -S gvfs`
-3. Install an audio interface: `sudo pacman -S pavucontrol`
-4. Exit `exit` and login with your user
+3. Install an audio interface: `sudo pacman -S pavucontrol alsa-utils pulseaudio bluez bluez-utils blueman`
+4. Activate bluetooth: `sudo systemctl enable bluetooth.service
+5. Exit `exit` and login with your user
 
 ## Step 15 - Finishing steps #2
 1. Open the xinitrc `vim .xinitrc` and add `exec startxfce4`

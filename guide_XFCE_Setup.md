@@ -99,6 +99,10 @@ install `sudo pacman -S libreoffice-fresh libreoffice-fresh-de ttf-liberation`
 5. Change the prompt by editing .zshrc and adding the line `PROMPT="%B%F{blue}%~%f%b%B%F{magenta} > %f%b"`
 6. Logout for changes to take effect
 
+### Nextcloud
+1. install required packages for storing the login password, otherwise autologin won't be possible: `sudo pacman -S gnome-keyring libgnome-keyring`
+2. install nextloud `sudo pacman -S nextcloud-client`
+
 ## Packages
 This is a collection of all the packages installed in a chronological order
 | package | description | usage |
@@ -123,3 +127,4 @@ This is a collection of all the packages installed in a chronological order
 | bitwarden | pw manager | electron based :( install from AUR |
 | lutris | wine frontend for games | install from AUR |
 | ttf-hack | great monospace font | |
+| nextcloud-client | frontend for cloud | |
