@@ -108,6 +108,7 @@ swapon /swapfile
 3. Open locale.gen `vim /etc/locale.gen` and uncomment "en_US.UTF-8", then run `locale-gen`
 4. Open locale.conf `vim /etc/locale.conf` and add `LANG=en_US.UTF-8`
 5. Open vconsole.conf `vim /etc/vconsole.conf` and add your keyboard layout: `KEYMAP=de-latin1-nodeadkeys`
+6. Activate network time syncing once again: `timedatectl set-ntp true`
 
 ## Step 9 - Hostname
 1. Open /etc/hostname `vim /etc/hostname` and add your desired hostname: `T460s`

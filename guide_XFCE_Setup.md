@@ -71,6 +71,17 @@ ColorBold=#D8DEE9
 ColorBoldUseDefault=FALSE
 ```
 
+### Screenshot
+1. Set shortcut for `xfce4-screnshooter -r -m` (-r -m captures a region and the mousepointer)
+
+### Fingerprint (only on X230)
+1. install fprintd `sudo pacman -S fprintd`
+2. enroll a finger (swipe five times) `fprintd-enroll`
+3. add the following line `auth		sufficient  	pam_fprintd.so` to /etc/pam.d/system-local-login, su and sudo xfce4-screensaver in the same directory **at the top of the file**
+
+### Youtube to mp3
+`youtube-dl -x -f 'bestaudio[ext=m4a]' --embed-thumbnail -o '%(title)s.%(ext)s'`
+
 ## Important packages
 ### TLP - battery improvements for laptops
 1. install the following packages `pacman -S tlp tlp-rdw tp_smapi acpi_call`
@@ -100,8 +111,12 @@ install `sudo pacman -S libreoffice-fresh libreoffice-fresh-de ttf-liberation`
 6. Logout for changes to take effect
 
 ### Nextcloud
-1. install required packages for storing the login password, otherwise autologin won't be possible: `sudo pacman -S gnome-keyring libgnome-keyring`
+1. install required packages for storing the login password, otherwise autologin won't be possible: `sudo pacman -S gnome-keyring libgnome-keyring seahorse`
 2. install nextloud `sudo pacman -S nextcloud-client`
+3. set default keyring to be qithout a password
+
+### Zathura
+1. Install zathura and it's mupdf dependency: `sudo pacman -S zathura zathura-pdf-mupdf`
 
 ## Packages
 This is a collection of all the packages installed in a chronological order
@@ -128,3 +143,12 @@ This is a collection of all the packages installed in a chronological order
 | lutris | wine frontend for games | install from AUR |
 | ttf-hack | great monospace font | |
 | nextcloud-client | frontend for cloud | |
+| zathura | pdf reader | see this guide |
+| pidgin | internet messenger | |
+| calibre | e-book manager | |
+| cherrytree | onenote like app for notes | install from AUR |
+| discord | voice chat platform | |
+| gnome-disk-utility | partition manager | |
+| ntfs-3g | ntfs support | |
+| hexchat | irs client | |
+| unrar | unarchiver | might be necessary for xarchiver to unpack rar files |
