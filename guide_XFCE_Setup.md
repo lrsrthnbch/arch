@@ -102,6 +102,10 @@ install `sudo pacman -S libreoffice-fresh libreoffice-fresh-de ttf-liberation`
 2. you might wanna configure the daemon config: `vim /etc/ssh/sshd_config`
 2. enable & start: `sudo systemctl enable sshd.service`, `sudo systemctl start sshd.service`
 
+Create ssh keypair:
+1. run `ssh-keygen -t rsa` to create a keypair (press enter on pw prompt to not use one)
+2. copy public key to the server: `ssh-copy-id [user]@[server]`
+
 ### zsh
 1. Download via pacman `sudo pacman -S zsh`
 2. Switch to zsh by running `zsh`
@@ -140,11 +144,9 @@ This is a collection of all the packages installed in a chronological order
 | geany | text editor / IDE | |
 | alacritty | gpu based terminal emulator | |
 | bitwarden | pw manager | electron based :( install from AUR |
-| lutris | wine frontend for games | install from AUR |
 | ttf-hack | great monospace font | |
 | nextcloud-client | frontend for cloud | |
 | zathura | pdf reader | see this guide |
-| pidgin | internet messenger | |
 | calibre | e-book manager | |
 | cherrytree | onenote like app for notes | install from AUR |
 | discord | voice chat platform | |
@@ -152,3 +154,6 @@ This is a collection of all the packages installed in a chronological order
 | ntfs-3g | ntfs support | |
 | hexchat | irs client | |
 | unrar | unarchiver | might be necessary for xarchiver to unpack rar files |
+| networkmanager-vpnc | cisco vpn plugin for network manager | |
+| jdownloader2 | Download Manager | install from AUR|
+| cool-retro-term-git | terminal emulator with retro effects | install from AUR |
