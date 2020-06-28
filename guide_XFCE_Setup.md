@@ -13,6 +13,7 @@ This guide is ment as a collection of many different changes done to the XFCE de
 ### Mouse Acceleration
 1. Open `vim /etc/X11/xorg.conf.d/50-mouse-acceleration.conf`
 2. Enter the following values:
+
 ´´´
 Section "InputClass"
 	Identifier "My Mouse"
