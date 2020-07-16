@@ -26,7 +26,7 @@ If you follow this guide, **your disk will be wiped!**
 1. Boot from USB
 2. Change the keyboard layout if necessary: `loadkeys de-latin1`
 3. Change the root password: `passwd`
-4. Connect to Wi-Fi: `wifi-menu`
+4. Connect to Wi-Fi: `iwctl`, `station wlan0 scan`, `station wlan0 get-networks`, `station wlan0 connect NAMEOFNETWORK`
 5. Start the ssh server: `systemctl start sshd.service`
 6. (Use `ip addr` to get your IP)
 7. You can now connect via ssh
@@ -147,7 +147,7 @@ Here is what it should look like:
 This guide uses XFCE, since basically everything works out of the box on ThinkPads.
 1. Install XFCE and additional packages (press Enter on every prompt): `pacman -S xfce4 xfce4-goodies`
 2. Install additional file manager functionality: `sudo pacman -S gvfs`
-3. Install an audio interface: `sudo pacman -S pavucontrol alsa-utils pulseaudio bluez bluez-utils blueman`
+3. Install an audio interface: `sudo pacman -S pavucontrol alsa-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth bluez bluez-utils blueman`
 4. Activate bluetooth: `sudo systemctl enable bluetooth.service
 5. Exit `exit` and login with your user
 
