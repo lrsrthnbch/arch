@@ -147,9 +147,10 @@ Here is what it should look like:
 This guide uses XFCE, since basically everything works out of the box on ThinkPads.
 1. Install XFCE and additional packages (press Enter on every prompt): `pacman -S xfce4 xfce4-goodies`
 2. Install additional file manager functionality: `sudo pacman -S gvfs`
-3. Install an audio interface: `sudo pacman -S pavucontrol alsa-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth bluez bluez-utils blueman`
+3. Install an audio interface and bluetooth: `sudo pacman -S pavucontrol alsa-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth bluez bluez-utils blueman`
 4. Activate bluetooth: `sudo systemctl enable bluetooth.service
-5. Exit `exit` and login with your user
+5. Install printer support: `sudo pacman -S cups`
+6. Exit `exit` and login with your user
 
 ## Step 15 - Finishing steps #2
 1. Open the xinitrc `vim .xinitrc` and add `exec startxfce4`
