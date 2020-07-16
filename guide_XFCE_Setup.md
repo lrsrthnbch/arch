@@ -75,6 +75,10 @@ ColorBoldUseDefault=FALSE
 ### Screenshot
 1. Set shortcut for `xfce4-screnshooter -r -m` (-r -m captures a region and the mousepointer)
 
+### Xfce Shortcuts
+1. `xfce4-popup-whiskermenu`
+2. `xfce4-session-logout --suspend`
+
 ### Fingerprint (only on X230)
 1. install fprintd `sudo pacman -S fprintd`
 2. enroll a finger (swipe five times) `fprintd-enroll`
@@ -130,7 +134,6 @@ This is a collection of all the packages installed in a chronological order
 | firefox | open source webbrowser | |
 | neofetch | show info about the os and hardware | |
 | git | version control system | |
-| htop | task overview & manager | |
 | yay | AUR manager | check this guide |
 | gimp | photo manipulation suite | |
 | gcolor2 | color picker utility | |
@@ -140,10 +143,8 @@ This is a collection of all the packages installed in a chronological order
 | deezloader | Deezer piracy utility | download from github |
 | qbittorrent | torrent utiliry | |
 | clementine | GUI music player | |
-| cmus | console music player | |
 | xarchiver | compression tool with thunar integration | |
 | geany | text editor / IDE | |
-| alacritty | gpu based terminal emulator | |
 | bitwarden | pw manager | electron based :( install from AUR |
 | ttf-hack | great monospace font | |
 | nextcloud-client | frontend for cloud | |
