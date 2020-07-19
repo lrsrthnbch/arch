@@ -163,3 +163,4 @@ This is a collection of all the packages installed in a chronological order
 | networkmanager-vpnc | cisco vpn plugin for network manager | |
 | jdownloader2 | Download Manager | install from AUR|
 | cool-retro-term-git | terminal emulator with retro effects | install from AUR |
+| catfish | file finder | |
