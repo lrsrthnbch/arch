@@ -79,6 +79,10 @@ ColorBoldUseDefault=FALSE
 1. `xfce4-popup-whiskermenu`
 2. `xfce4-session-logout --suspend`
 
+### Xfce Panel location
+1. 1080: `xfconf-query -c xfce4-panel -p /panels/panel-1/position -s "p=0;x=960;y=1056"`
+2. 2560: `xfconf-query -c xfce4-panel -p /panels/panel-1/position -s "p=0;x=1280;y=1412"`
+
 ### Fingerprint (only on X230)
 1. install fprintd `sudo pacman -S fprintd`
 2. enroll a finger (swipe five times) `fprintd-enroll`
