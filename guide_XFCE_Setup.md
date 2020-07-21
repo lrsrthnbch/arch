@@ -144,7 +144,6 @@ This is a collection of all the packages installed in a chronological order
 | tlp | battery improvements | check this guide for further information |
 | vlc | open source media player | |
 | youtube-dl | YouTube downloader | |
-| deezloader | Deezer piracy utility | download from github |
 | qbittorrent | torrent utiliry | |
 | clementine | GUI music player | |
 | xarchiver | compression tool with thunar integration | |
