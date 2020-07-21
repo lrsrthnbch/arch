@@ -5,6 +5,8 @@ This guide is ment to provide step by step instructions on how to get a fully fu
 | Date | Comment |
 | ------ | ------ |
 | 2020/05/01 | created the document |
+| 2020/07/16 | changed wifi-menu to iwctl |
+| 2020/07/21 | changed swap creation from fallocate to dd |
 
 ## to do
 - [ ] add instructions on how to securely wipe a disk
