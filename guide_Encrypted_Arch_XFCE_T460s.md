@@ -94,7 +94,7 @@ Here is what it should look like:
 ## Step 7 - Swap
 1. Create and activate the swapfile by executing the following commands:
 ```
-fallocate -l 8GB /swapfile
+dd if=/dev/zero of=/swapfile count=8192 bs=1MiB
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
