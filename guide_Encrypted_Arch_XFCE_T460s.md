@@ -152,7 +152,7 @@ This guide uses XFCE, since basically everything works out of the box on ThinkPa
 2. Install additional file manager functionality: `sudo pacman -S gvfs`
 3. Install an audio interface and bluetooth: `sudo pacman -S pavucontrol alsa-utils pulseaudio pulseaudio-alsa pulseaudio-bluetooth bluez bluez-utils blueman`
 4. Activate bluetooth: `sudo systemctl enable bluetooth.service
-5. Install printer support: `sudo pacman -S cups gutenberg samba system-config-printer`
+5. Install printer support: `sudo pacman -S cups gutenprint samba system-config-printer`
 6. Start printer server: `sudo systemctl enable avahi-daemon.service` and `sudo systemctl enable org.cups.cupsd.service`
 7. Exit `exit` and login with your user
 
