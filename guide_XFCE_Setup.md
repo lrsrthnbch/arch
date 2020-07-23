@@ -164,3 +164,4 @@ This is a collection of all the packages installed in a chronological order
 | cool-retro-term-git | terminal emulator with retro effects | install from AUR |
 | catfish | file finder | |
 | xfce4-sensors-plugin-nvidia | plugin for displaying gpu stats in the panel | install from AUR |
+| lm_sensors | sensor plugin | check the Arch Wiki |
